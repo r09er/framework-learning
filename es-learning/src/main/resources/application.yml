@@ -1,0 +1,12 @@
+spring:
+  redis:
+    cluster:
+      nodes: 127.0.0.1:9300
+logging:
+  level:
+    org:
+      elasticsearch:
+        client: trace
+    com:
+      r09er:
+        es: debug
